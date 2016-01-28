@@ -28,7 +28,6 @@ recipes:
 - sprout-rbenv
 - sprout-ruby
 - sprout-mysql
-- sprout-postgresql
 
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
@@ -37,23 +36,30 @@ recipes:
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: pivotal.io
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
+        - initials: ts
+          name: Todd Sedano
+          username: tsedano
+        - initials: ts
           name: Luke Winikates
           username: lwinikates
+        - initials: bc
+          name: Benjamin Christel
+          username: bchristel
+        - initials: yd
+          name: Yuliya Dzikovich
+          username: ydzikovich
+        - initials: sj
+          name: Sannidhi Jalukar
+          username: sjalukar
+        - initials: ph
+          name: Peter Huynh
+          username: phuynh
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/globehealer/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
